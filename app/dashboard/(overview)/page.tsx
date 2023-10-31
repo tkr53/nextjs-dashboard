@@ -5,6 +5,11 @@ import Cards from "../../ui/dashboard/cards"
 import { lusitana } from "../../ui/fonts"
 import { Suspense } from "react"
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from "@/app/ui/skeletons"
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export default async function Page() {
 
